@@ -1,6 +1,10 @@
 {
+  "version": 2,
   "buildCommand": "npx vite build",
   "outputDirectory": "dist",
   "installCommand": "npm ci || npm install",
-  "framework": "vite"
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }

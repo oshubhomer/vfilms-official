@@ -134,9 +134,8 @@ dist
 
 ## ✨ Author
 
-**🎬 Vernita Verma**  
-Creative Director at **VFilms**  
-📍 New Delhi, India  
+**🎬 Shubhanshu Omer**  
+
 🌐 [vfilms-official.vercel.app](https://vfilms-official.vercel.app)
 
 ---
