@@ -1,11 +1,33 @@
+/* ✅ Import Google Font FIRST */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+
+/* ✅ Tailwind Directives NEXT */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+/* --- Brand Theme Variables --- */
+:root {
+  --brand-bg: #FFF7F2;
+  --brand-accent: #E15A29;
+  --brand-navy: #1E3A5F;
+}
 
-:root{ --brand-bg:#FFF7F2; --brand-accent:#E15A29; --brand-navy:#1E3A5F; }
-body{ font-family:'Instrument Sans', ui-sans-serif, system-ui; background: var(--brand-bg); color:#111827; }
-.font-display{ font-family: 'Island Sans', 'Instrument Sans', ui-serif, Georgia, Cambria, 'Times New Roman', serif; }
-@keyframes spin-slow { from{ transform: rotate(0deg);} to{ transform: rotate(360deg);} }
-.animate-spin-slow { animation: spin-slow 20s linear infinite; }
+body {
+  font-family: 'Instrument Sans', ui-sans-serif, system-ui;
+  background: var(--brand-bg);
+  color: #111827;
+}
+
+.font-display {
+  font-family: 'Island Sans', 'Instrument Sans', ui-serif, Georgia, Cambria, 'Times New Roman', serif;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}

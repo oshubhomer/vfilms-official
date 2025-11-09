@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-const repo = 'vfilms-official'
+// ✅ Works perfectly for Vercel, Netlify, or localhost
 export default defineConfig({
   plugins: [react()],
-  base: `/${repo}/`,
-})
+  base: '/', // app is served from the root
+});
